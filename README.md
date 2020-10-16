@@ -5,24 +5,25 @@
 
 ## Состав пакета:
 1. Типы сообщений:
-    * SimpleBatteryState
-    * PointGPS
+    * SimpleBatteryState.msg
+    * PointGPS.msg
+    * OptVelocity,msg
 
 1. Типы сервисов:
     * Accel.srv
     * Altitude.srv
+    * Cargo.srv
     * Event.srv
     * Gyro.srv
     * Info.srv
     * Led.srv
     * Live.srv
     * Log.srv
-    * LpsPos.srv
     * LpsVel.srv
     * LpsYaw.srv
     * Orientation.srv
     * Position.srv
     * PositionGPS.srv
-    * Range.srv
     * Time.srv
     * Yaw.srv
+    * NavigationSystem.srv
