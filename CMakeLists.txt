@@ -10,27 +10,23 @@ add_message_files(
    PointGPS.msg
    SimpleBatteryState.msg
    OptVelocity.msg
+   Orientation.msg
+   SatellitesGPS.msg
 )
 
 add_service_files(
    FILES
    Yaw.srv
    Event.srv
-   Position.srv
-   PositionGPS.srv
    Led.srv
    Time.srv
    Info.srv
-   LpsVel.srv
-   LpsYaw.srv
-   Gyro.srv
-   Accel.srv
-   Orientation.srv
    Live.srv
    Log.srv
-   Altitude.srv
    NavigationSystem.srv
    Cargo.srv
+   Position.srv
+   PositionGPS.srv
 )
 
 generate_messages(
