@@ -12,7 +12,6 @@
     * Orientation.msg
 
 1. Типы сервисов:
-    * Cargo.srv
     * Event.srv
     * Info.srv
     * Led.srv
