@@ -24,7 +24,6 @@ add_service_files(
    Live.srv
    Log.srv
    NavigationSystem.srv
-   Cargo.srv
    Position.srv
    PositionGPS.srv
 )
