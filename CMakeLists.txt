@@ -12,6 +12,7 @@ add_message_files(
    OptVelocity.msg
    Orientation.msg
    SatellitesGPS.msg
+   Parameter.msg
 )
 
 add_service_files(
@@ -26,10 +27,11 @@ add_service_files(
    NavigationSystem.srv
    Position.srv
    PositionGPS.srv
+   ParametersList.srv
 )
 
 generate_messages(
-   DEPENDENCIES std_msgs geometry_msgs sensor_msgs
+   DEPENDENCIES std_msgs geometry_msgs sensor_msgs gs_interfaces
 )
 
 catkin_package(

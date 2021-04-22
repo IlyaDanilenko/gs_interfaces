@@ -10,6 +10,7 @@
     * PointGPS.msg
     * OptVelocity.msg
     * Orientation.msg
+    * Parameter.msg
 
 1. Типы сервисов:
     * Event.srv
@@ -22,3 +23,4 @@
     * Time.srv
     * Yaw.srv
     * NavigationSystem.srv
+    * ParametersList.srv
