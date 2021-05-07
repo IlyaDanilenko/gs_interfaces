@@ -25,9 +25,11 @@ add_service_files(
    Live.srv
    Log.srv
    NavigationSystem.srv
+   SetNavigationSystem.srv
    Position.srv
    PositionGPS.srv
    ParametersList.srv
+   SetParametersList.srv
 )
 
 generate_messages(

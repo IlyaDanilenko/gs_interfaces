@@ -24,3 +24,5 @@
     * Yaw.srv
     * NavigationSystem.srv
     * ParametersList.srv
+    * SetNavigationSystem.srv
+    * SetParametersList.srv
