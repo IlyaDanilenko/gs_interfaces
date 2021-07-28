@@ -1,2 +1,2 @@
-std_msgs/String name
+string name
 float32 value
