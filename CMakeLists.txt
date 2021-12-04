@@ -30,6 +30,7 @@ add_service_files(
    PositionGPS.srv
    ParametersList.srv
    SetParametersList.srv
+   Wait.srv
 )
 
 generate_messages(
